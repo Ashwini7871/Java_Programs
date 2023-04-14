@@ -7,7 +7,7 @@ EBCalculator reader = new EBCalculator();
 reader.calculate_units();
 int amount =500;
 }
-void calculate_units()
+int calculate_units()
 {
 int units = 150;
 int price = 2;
