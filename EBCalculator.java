@@ -22,7 +22,7 @@ int units = 150;
 int price = 2;
 System.out.println("three\t"+(units*price)); 
 return units*price;
-
+ 
 }
 
 }
