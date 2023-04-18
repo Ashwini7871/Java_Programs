@@ -4,8 +4,8 @@ public static void main(String[] args)
 {
 Tenali story = new Tenali(); 
 // story.find_security(1024); 
-// story.find_flowers(7);
-story.print_1();
+story.find_flowers(7);
+// story.print_1();
 
 }
 void print_1()
