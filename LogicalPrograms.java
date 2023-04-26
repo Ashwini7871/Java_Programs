@@ -1,13 +1,16 @@
 class LogicalPrograms
 {
+    /**
+     * @param args
+     */
     public static void main(String[] args)
     {
        LogicalPrograms lp = new LogicalPrograms();
 //       lp.find_divisors(100);
-//        lp.find_count_of_divisors(131);
+      //  lp.find_count_of_divisors(131);
 lp.find_prime_numbers(131);
-    }
-void find_prime_numbers(int)
+}
+void find_prime_numbers(int no) 
 {
 int div = 2;
 int count = 0;
@@ -21,7 +24,7 @@ count = count+1;
 div = div + 1;
 }
 System.out.println("no.of divisor is :"+count);
-}
+
 if (count == 0)
 {
 System.out.println("prime number");
@@ -29,11 +32,7 @@ System.out.println("prime number");
 else{
 System.out.println("not prime number");
 }
-
-
-
-
-}
+    }
 
 
 
