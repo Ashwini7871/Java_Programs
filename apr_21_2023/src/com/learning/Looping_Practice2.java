@@ -19,7 +19,7 @@ public class Looping_Practice2
         
     }
 
-int find_power(int base,int power)
+ public int find_power(int base,int power)
 {
     int box = 1;
     while(power>0)
