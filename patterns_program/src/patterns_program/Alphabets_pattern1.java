@@ -1,4 +1,4 @@
-package Pattern_Paractice;
+package patterns_program;
 
 public class Alphabets_pattern1 {
 
@@ -6,7 +6,7 @@ public class Alphabets_pattern1 {
 		// TODO Auto-generated method stub
 		Alphabets_pattern1 p = new Alphabets_pattern1();
 //		p.pattern_A();
-//		p.pattern_B();
+		p.pattern_B();
 //		p.pattern_C();
 //		p.pattern_D();//pen
 //		p.pattern_E();

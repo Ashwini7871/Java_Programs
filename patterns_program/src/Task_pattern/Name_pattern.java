@@ -11,7 +11,7 @@ public class Name_pattern {
 		System.out.println();
 //		np.print_H();
 		System.out.println();
-//		np.print_W();//pending
+		np.print_W();//pending
 		System.out.println();
 //		np.print_I();
 		System.out.println();

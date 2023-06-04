@@ -5,6 +5,8 @@ public class Alphabets_pattern {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Alphabets_pattern ap = new Alphabets_pattern();
+//		ap.print_A();
+		ap.print_B();
 //		ap.print_C();
 //		ap.print_D();
 //		ap.print_E();
@@ -15,8 +17,14 @@ public class Alphabets_pattern {
 //		ap.print_T();
 //		ap.print_H();
 //		ap.print_Y();
-		ap.print_X();
-//		ap.print_A();
+//		ap.print_X();//pending
+		
+		
+	}
+
+	private void print_B() {
+		// TODO Auto-generated method stub
+		
 		
 	}
 
