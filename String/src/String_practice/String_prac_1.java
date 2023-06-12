@@ -17,7 +17,7 @@ public class String_prac_1 {
 //		sp.eliminating_last_spaces();//strip trailing
 //		sp.reverse_string();
 //		sp.check_contains();
-		sp.frequency_of_each_character();
+//		sp.frequency_of_each_character();
 		
 	}
 

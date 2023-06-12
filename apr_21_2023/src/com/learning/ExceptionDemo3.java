@@ -2,9 +2,9 @@ package com.learning;
 
 public class ExceptionDemo3 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
-		int[] marks = {98,95,100,94};
+		int[] marks = {98,95,100,94,95};
 		try {
 		ExceptionDemo2.display(marks);
 		}

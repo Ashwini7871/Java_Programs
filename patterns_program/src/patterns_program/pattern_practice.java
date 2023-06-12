@@ -17,7 +17,7 @@ public class pattern_practice {
 //		pp.pattern8i();
 //		pp.pattern8ii();
 //		pp.pattern8iii();
-		pp.pattern9();
+//		pp.pattern9();
 		
 	}
 
@@ -224,7 +224,7 @@ System.out.println();
 	private void pattern2() {
 		// TODO Auto-generated method stub
 		//expecto/p:5 4 3 2 1
-		        //5 4 3 2 1 
+		        //  5 4 3 2 1 
 		for(int count=1;count<=2;count++) {
 		
 		for(int i=5;i>0;i--)

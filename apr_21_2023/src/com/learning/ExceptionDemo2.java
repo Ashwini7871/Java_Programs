@@ -2,7 +2,7 @@ package com.learning;
 
 public class ExceptionDemo2 {
 
-	public static void main(String[] args) throws ArrayIndexOutOfBoundsException, ArithmeticException, Exception {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] marks = {100,90,97, 96, 92};
 		display(marks);
@@ -10,7 +10,7 @@ public class ExceptionDemo2 {
 
 	public static void display(int[] ar) 
 		// TODO Auto-generated method stub
-		throws ArrayIndexOutOfBoundsException,ArithmeticException,Exception{
+		throws ArrayIndexOutOfBoundsException,ArithmeticException {
 		    int total = 0; 
 		    for(int i=0; i<5;i++)
 		    {
