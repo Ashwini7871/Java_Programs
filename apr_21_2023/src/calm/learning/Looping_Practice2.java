@@ -1,4 +1,4 @@
-package com.learning;
+package calm.learning;
 
 class Looping_Practice2
 {
