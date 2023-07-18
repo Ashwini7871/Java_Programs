@@ -19,7 +19,7 @@ public class LoopingPractice {
 //		lp.Sum_of_Digits();
 //		lp.Reverse_the_number();
 //		lp. Palindrome();
-		lp.Armstrong_number();//pending
+//		lp.Armstrong_number();//pending
 //		lp.Neon_number();//pending
 //		lp.Strong_number();//pending
 		
@@ -82,7 +82,7 @@ public class LoopingPractice {
 	       }
 	      
 		
-	}
+	
 
 	private void Palindrome() {
 		// TODO Auto-generated method stub
@@ -251,4 +251,5 @@ public class LoopingPractice {
 		}
 	}
 
+}
 }
