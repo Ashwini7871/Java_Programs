@@ -7,9 +7,25 @@ public class LoopingDemo2 {
 		LoopingDemo2 ld = new LoopingDemo2();
 //		ld.print_fibo();
 //		ld.print_fibo_without_third();
-		ld.print_sqr_root(81);
+//		ld.print_sqr_root(81);
+//		ld.factorial();
+		
+		
 
 	}
+
+	private void factorial() {
+		// TODO Auto-generated method stub
+		int no=5;
+		int fact=1;
+		while(no>0) {
+		fact=fact*no;
+		no--;
+		}
+		System.out.println(fact);
+		}
+		
+	
 
 	private void print_sqr_root(int no) {
 		// TODO Auto-generated method stub

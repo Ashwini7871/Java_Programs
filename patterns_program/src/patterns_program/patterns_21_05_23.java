@@ -1,7 +1,7 @@
 package patterns_program;
 
 public class patterns_21_05_23 {
-	/*Today(@Siva) 21/05/2023
+	/*21/05/2023
 	   * pattern 1 :
 	   1
 	   2  3
@@ -80,7 +80,7 @@ public class patterns_21_05_23 {
 		// TODO Auto-generated method stub
 
 			patterns_21_05_23 p =new patterns_21_05_23();
-//			p.pattern1();
+			p.pattern1();
 //			p.pattern2();
 //			p.pattern3();
 //			p.pattern4();
@@ -331,11 +331,11 @@ public class patterns_21_05_23 {
 			   4  5  6
 			   7  8  9  10
 			   11 12 13 14 15*/
-		int num=15;
+		int num=1;
 	for(int row=1;row<=5;row++) {
 		for(int col=1;col<=row;col++) {
-			System.out.print(num+" ");
-			num--;
+			System.out.print(num+" \t");
+			num++;
 		}
 		System.out.println();
 	}

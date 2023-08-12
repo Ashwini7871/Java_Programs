@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.Map.Entry;
 public class Offer_sale {
-	static Map<String, Double> itemPrices = new HashMap<>();
+	 static Map<String, Double> itemPrices = new HashMap<>();
 	 static Map<String, Double> itemDiscounts = new HashMap<>();
 	 static HashMap<String, Double> bill = new HashMap<>();
 	 static Date d = new java.util.Date();
@@ -71,7 +71,7 @@ public class Offer_sale {
 	   itemPrices.put("Sugar", (double) 80);
 	   itemPrices.put("Rice", (double) 60);
 	   itemPrices.put("Dhall", (double) 120.50);
-	   itemPrices.put("Tamarind", (double) 160.70);
+	   itemPrices.put("Tamarind", (double) 80.70);
 	   itemPrices.put("Maggie", (double) 15.50);
 
 	  } else {
@@ -81,7 +81,7 @@ public class Offer_sale {
 	   itemPrices.put("Sugar", (double) 80);
 	   itemPrices.put("Rice", (double) 60);
 	   itemPrices.put("Dhall", (double) 120.50);
-	   itemPrices.put("Tamarind", (double) 80.70);
+	   itemPrices.put("Tamarind", (double) 160.70);
 	   itemPrices.put("Maggie", (double) 15.50);
 	  }
 

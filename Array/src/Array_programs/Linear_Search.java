@@ -7,7 +7,7 @@ public class Linear_Search {
 		Linear_Search ls = new Linear_Search();
 		
 		int[] a1= {10,20,30,40,50,70,90};
-		int key=20;
+		int key=30;
 		System.out.println(key+" is found at index : "+LinearSearch(a1,key));
 
 	}
