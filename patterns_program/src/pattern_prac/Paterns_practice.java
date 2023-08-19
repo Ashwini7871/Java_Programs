@@ -17,8 +17,44 @@ public class Paterns_practice {
         // pp.pattern8();
 		// pp.pattern8i();
 		// pp.pattern9();
+		// pp.pattern10();
+//		   pp.pattern11();
 
 	}
+	private void pattern11() {
+		// TODO Auto-generated method stub
+//		ex o/p 
+		/*
+		 * 
+		 * 
+		 */
+		
+		
+	}
+	private void pattern10() {
+		// TODO Auto-generated method stub
+//		ex o/p   
+		/** * * * 5
+		  * * * 5 4
+		  * * 5 4 3
+		  * 5 4 3 2
+		  5 4 3 2 1*/
+		
+		for (int row =5;row>=1;row--) {
+			for (int space=row;space>1;space--) {
+				System.out.print(" ");
+			}
+			for(int col=5;col>=row;col--) {
+				System.out.print(col+"");
+			}
+			System.out.println();
+		}
+
+		
+		
+}  
+		
+	
 	private void pattern9(){
     // ex o/p 
 	/*
