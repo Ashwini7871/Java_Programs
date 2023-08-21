@@ -13,10 +13,10 @@ public class Pattern_40 {
 //		p.pattern5();
 //		p.pattern6(); 
 //		p.pattern7();
-		p.pattern8();//not completed
+//		p.pattern8();
 //		p.pattern9();
-//		p.pattern10();//NOT COMPLETE
-//		p.pattern11();
+//		p.pattern10();
+//		p.pattern11();//wrong
 //		p.pattern12();
 //		p.pattern13();
 //		p.pattern14();
@@ -26,90 +26,11 @@ public class Pattern_40 {
 //		p.pattern18();
 //		p.pattern19();
 //		p.pattern20();
-//		p.pattern21();
-//		p.pattern22(); //dont know
-		p.pattern23();
-		
-	}
-
-	private void pattern23() {
-		// TODO Auto-generated method stub
-//		ex o/p   
-		/*
-		 *            A
-		 *           A A
-		 *          A B A
-		 *         A C C A
-		 *        A D F D A
-		 *        
-		 *        * * * * A
-		 *        * * * A A
-		 *        * * A B A
-		 *        * A C C A
-		 *        A D F D A
-		 *        
-		 */
-		
-		
-		
-	}
-
-	private void pattern22() {
-		// TODO Auto-generated method stub
-//		ex o/p
-		/*
-		 *           1
-		 *          1 1
-		 *         1 2 1
-		 *        1 3 3 1
-		 *       1 4 6 4 1
-		 *       
-		 *       * * * * 1
-		 *       * * * 1 1
-		 *       * * 1 2 1
-		 *       * 1 3 3 1
-		 *       1 4 6 4 1
-		 */
-int numRows = 5;  // You can adjust this to generate more or fewer rows
-        
-        for (int i = 0; i < numRows; i++) {
-            // Print spaces
-            for (int j = 0; j < numRows - i - 1; j++) {
-                System.out.print(" ");
-            }
-            
-            int num = 1;
-            for (int j = 0; j <= i; j++) {
-                System.out.print(num + " ");
-                num = num * (i - j) / (j + 1);
-            }
-            
-            System.out.println();
-        }
-		
-	}
-
-	private void pattern21() {
-		// TODO Auto-generated method stub
-//		ex o/p
-		/*
-		 * A
-		 * B C
-		 * D E F
-		 * G H I J 
-		 * K L M N O
-		 */
-		char alph='A';
-		for(char row='E';row>='A';row--) {
-			for(char col='E';col>=row;col--) {
-				System.out.print(alph+" ");
-				alph++;
-			}
-			System.out.println();
-			}
 
 		
 	}
+
+	
 
 	private void pattern20() {
 		// TODO Auto-generated method stub
@@ -301,8 +222,8 @@ int numRows = 5;  // You can adjust this to generate more or fewer rows
 		
 //		ex o/p
 		/*
-		 *          *
-		 *         * *
+		 *           *
+		 *         * * *
 		 *        * * *
 		 *       * * * *
 		 *      * * * * *
@@ -329,7 +250,20 @@ int numRows = 5;  // You can adjust this to generate more or fewer rows
 		 *       B C D E
 		 *      A B C D E
 		 *      
+		 *      
 		 */
+		int alpha=64;// A
+		
+      for(int row=5;row>=1;row--) {
+			
+			for(int space=1;space<row;space++) {
+				System.out.print("*");
+			}
+			for(int col=row;col<=5;col++) {
+				System.out.print((char)(alpha+col)+" ");
+			}
+			System.out.println();
+		}
 		
 	}
 
@@ -395,7 +329,7 @@ int numRows = 5;  // You can adjust this to generate more or fewer rows
 			for(int space=1;space<row;space++) {
 				System.out.print("*");
 			}
-			for(int col=5;col>=row;col--) {
+			for(int col=row;col<=5;col++) {
 				System.out.print(col+" ");
 			}
 			System.out.println();
