@@ -18,7 +18,7 @@ public class String_practice {
 //System.out.println(d);//s+s//join
 //		System.out.println(s.hashCode());//hashcode is variable memory address
 //		System.out.println(s.replace('A','a'));
-		System.out.println());
+		System.out.println();
 		
 		
 	}

@@ -19,7 +19,22 @@ public class Paterns_practice {
 		// pp.pattern9();
 		// pp.pattern10();
 //		   pp.pattern11();
+		pp.patternprac();
 
+	}
+	private void patternprac() {
+		// TODO Auto-generated method stub
+		int alph=64;
+		for(int row=1;row<=5;row++) {
+			for(int space=5;space>row;space--) {
+				System.out.print("A ");
+			}
+			for(int col=1;col<=row;col++) {
+				System.out.print((char)(alph+row)+" ");
+			}
+			System.out.println();
+		}
+		
 	}
 	private void pattern11() {
 		// TODO Auto-generated method stub

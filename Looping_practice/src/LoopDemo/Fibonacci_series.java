@@ -13,7 +13,7 @@ public class Fibonacci_series {
 	private void print_fibonacci() {
 		// TODO Auto-generated method stub
 		int p1=0,p2=1;
-		while(p1<=8) {
+		while(p1<=10) {
 			System.out.println(p1);
 			int p3=p1+p2;//1
 			p1=p2;

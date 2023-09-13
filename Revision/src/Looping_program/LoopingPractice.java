@@ -12,7 +12,7 @@ public class LoopingPractice {
 //		lp.mul_3and5();
 //		lp.mul_3or5();
 //		lp.find_diviors();
-		//lp.find_div_count();
+//		lp.find_div_count();
 //		lp.prime_number();
 //		lp.Reverse_Printing_a_number();
 //		lp.Count_of_Digits();
@@ -30,7 +30,7 @@ public class LoopingPractice {
 //		lp.factorial(5);
 //		lp.spy_number();
 //		lp.print_tables();
-		lp.binary_to_decimal();
+//		lp.binary_to_decimal();
 //		lp.gcd();//once recheck
 //		lp.lcm();//once check
 //		lp.fibanocci_without();
@@ -41,7 +41,18 @@ public class LoopingPractice {
 //		lp.sum(109);
 //		lp.square_root();//check
 //		lp.decimal_to_binary();
+//		lp.print1_11_111_1111();//pending
 		
+		
+	}
+
+	private void print1_11_111_1111() {
+		// TODO Auto-generated method stub
+		String no="1";
+//		for(;no<=1200;no++) {
+			System.out.println(no+" ");
+		
+//		}
 	}
 
 	private void decimal_to_binary() {
@@ -436,7 +447,7 @@ public class LoopingPractice {
 			{
 			System.out.print(no%10);
 			
-		}
+		    }
 		
 	}
 
